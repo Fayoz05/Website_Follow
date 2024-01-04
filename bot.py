@@ -7,7 +7,7 @@ import requests, logging, re ,time
 from bs4 import BeautifulSoup
 
 # Initialize the Telegram Updater with your bot token
-updater = Updater('YOUR_TOKEN')
+updater = Updater('YOUR_BOT_TOKEN')
 dp = updater.dispatcher
 
 # Set up logging
