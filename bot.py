@@ -178,7 +178,9 @@ def check(update: Update, context: CallbackContext) -> None:
                         # Notify the user about the new URL on the website
                         update.message.reply_text(f'''🌐 There is a new URL on the website: {new_url}
 or by some mistake it might be this url:
-{admin_url}{new_url}''')
+{admin_url}{new_url}
+😕 If the URL isn't opening, you might want to try adding 
+"{new_url}" to the end of your main URL. 🚀''')
                         first_urls = new_urls
 
                 # Notify the user that the searching process has been stopped
