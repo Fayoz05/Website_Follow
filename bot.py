@@ -2,7 +2,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 from textblob import Word
-from telegram import ParseMode
 import requests, logging, re ,time
 from bs4 import BeautifulSoup
 
