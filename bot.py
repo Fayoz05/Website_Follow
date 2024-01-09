@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Define global variables
-TARGET_URL = 'https://polito.uz/news/'  # URL to monitor for new links
+TARGET_URL = 'https://polito.uz/news'  # URL to monitor for new links
 admin_url = TARGET_URL
 URL_FROM_WEBSITE = 'https://polito.uz/28435/'  # Default URL for spell-checking
 spell_url = URL_FROM_WEBSITE
